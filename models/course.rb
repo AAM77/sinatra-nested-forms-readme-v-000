@@ -5,7 +5,7 @@ class Course < ActiveRecord::Base
   COURSES = []
 
   def initialize(args)
-    @name = params[:name]
+    @name = args[:name]
     @topic = params[:topic]
 
     COURSES << self
