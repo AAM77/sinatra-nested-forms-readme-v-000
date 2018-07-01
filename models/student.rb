@@ -3,7 +3,7 @@ class Student < ActiveRecord::Base
 
   STUDENTS = []
 
-  def initialize(name, grade)
+  def initialize(params)
     @name = params[:name]
     @grade = params[:grade]
     STUDENTS << self
