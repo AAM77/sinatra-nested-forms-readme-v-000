@@ -14,5 +14,5 @@ class Course < ActiveRecord::Base
   def self.all
     COURSES
   end #.all
-  
+
 end #Course class

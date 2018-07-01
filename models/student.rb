@@ -1,4 +1,4 @@
-class Student
+class Student < ActiveRecord::Base
   attr_accessor :name, :grade
 
   STUDENTS = []
